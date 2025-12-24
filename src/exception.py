@@ -1,6 +1,6 @@
 """Custom Exception Module for Detailed Error Reporting"""
 import sys
-import logging
+from src.logger import logging
 
 def error_message_details(error, error_detail) -> str :
     """Extracts file name and line number from the traceback."""
